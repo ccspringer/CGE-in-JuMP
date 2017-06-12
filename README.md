@@ -8,9 +8,9 @@ The minimum requirements to run the model are [Julia](http://julialang.org/) and
 
 ## Summary ##
 
-This model uses the JuMP package with the Ipopt solver to demonstrate an open-source alternative to GAMS.
+This model uses the JuMP package with the Ipopt solver to demonstrate an open-source alternative to GAMS for computable general equilibrium models.
 
-The model has producing firms and a representative household. The firms each produce a single commodity for their sector. The household is the sole consumer of commodities. Firms maximize profit according to a constant elasticity of substitution (CES) production function and the household maximizes utility according to a Linear Expenditure System (LES) utility function. The LES utility function is subject to a household budget constraint.  
+The model consists of producing firms and a representative household. The firms each produce a single commodity for their sector. The household is the sole consumer of commodities. Firms maximize profit according to a constant elasticity of substitution (CES) production function and the household maximizes utility according to a Linear Expenditure System (LES) utility function. The LES utility function is subject to a household budget constraint.  
 
 For ease of use and expansion, the model economy is roughly divided into two main activities – production and consumption - which are annotated as comments within the parameter-variable-equation model structure commonly used in GAMS.
 
