@@ -1,6 +1,6 @@
 # CGE-with-JuMP
 
-This is a simple CGE model implemented in Julia for Mathematical Optimization (JuMP).
+This is a simple CGE model implemented in the Julia for Mathematical Optimization (JuMP) interface.
 
 ## Requirements
 
